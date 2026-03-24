@@ -192,9 +192,13 @@
 
         /* Hero Section */
         .hero {
-            padding-top: 8rem;
-            padding-bottom: 6rem;
-            background: linear-gradient(135deg, var(--secondary) 0%, #1e3a8a 100%);
+            padding-top: 10rem;
+            padding-bottom: 8rem;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0f172a;
             color: var(--white);
             position: relative;
             overflow: hidden;
@@ -210,16 +214,16 @@
             height: 100%;
             background-image: url('WhatsApp Image 2026-03-24 at 12.07.29.jpeg');
             background-size: cover;
-            background-position: center;
-            opacity: 0.35;
+            background-position: center center;
+            opacity: 0.65;
             z-index: 0;
-            mix-blend-mode: overlay;
         }
 
         .hero .container {
             position: relative;
             z-index: 1;
             max-width: 800px;
+            width: 100%;
         }
 
         .hero-badge {
@@ -239,16 +243,20 @@
             font-weight: 800;
             line-height: 1.1;
             margin-bottom: 1.5rem;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.8);
         }
 
         .hero h1 span {
             color: var(--primary);
+            text-shadow: 0 4px 15px rgba(0,0,0,0.8);
         }
 
         .hero p {
             font-size: 1.25rem;
             color: #cbd5e1;
             margin-bottom: 2.5rem;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+            font-weight: 500;
         }
 
         /* Services Section */
